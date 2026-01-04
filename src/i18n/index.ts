@@ -7,7 +7,7 @@ i18n.use(initReactI18next).init({
   resources,
   lng: 'pt-BR',
   defaultNS: 'shared',
-  ns: ['shared'],
+  ns: ['shared', 'auth'],
 });
 
 export default i18n;

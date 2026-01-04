@@ -1,0 +1,11 @@
+{
+  "login": {
+    "email": "Email",
+    "fail": "Falha no login",
+    "noAccount": "Não tem uma conta?",
+    "password": "Senha",
+    "register": "Registre-se",
+    "submit": "Entrar",
+    "title": "Login"
+  }
+}
