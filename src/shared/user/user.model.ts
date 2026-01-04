@@ -79,6 +79,10 @@ export class User {
   }
 
   public get hasAdminRole(): boolean {
-    return !!this.roles.find((role) => role.id === ROLE_ADMIN.id);
+    return this.hasRole(ROLE_ADMIN);
+  }
+
+  public hasRole(role: Role): boolean {
+    return !!this.roles.find((r) => r.id === role.id && r.name === role.name);
   }
 }
