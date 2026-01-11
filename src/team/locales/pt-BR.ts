@@ -1,6 +1,10 @@
 import type { TeamKey } from '../team.model';
 
 type LocaleContent = {
+  selection: {
+    label: string;
+    placeholder: string;
+  };
   teams: {
     [k in TeamKey]: {
       code: string;
@@ -10,6 +14,10 @@ type LocaleContent = {
 };
 
 const locale: LocaleContent = {
+  selection: {
+    label: 'Selecionar Times',
+    placeholder: 'Buscar Time',
+  },
   teams: {
     afghanistan: {
       code: 'AFG',
